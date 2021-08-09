@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>登录</title>
+		<link rel="shortcut icon" href="img/docker_logo.ico"/>
+		<link rel="stylesheet" href="css/doker-test.css" />
+		<script>
+			var dog = {
+				name:'可可',
+				type:'阿拉斯加犬',
+				age:5,
+				color:'棕红色',
+				dark: function(){
+					console.log('汪汪汪~');
+				},
+				showFilm: function(){
+					console.log('演电影~');
+				}
+				
+			}
+			console.log(dog.name);
+			console.log(dog['type']);
+			console.log(dog.age);
+			console.log(dog.color);
+			dog.dark();
+			dog.showFilm();
+			console.log(dog);
+		</script>
+	</head>
+	<body>
+		<form action="" method="post" enctype="multipart/form-data"></form>
+		<div class="log_form">
+			<div>
+				<span><img src="img/docker.png" /></span>
+				<span>docker</span>
+			</div>
+			<ul>
+				<label for="">账号：</label>
+				<input class="username" type="text" value="请输入内容" />
+			</ul>
+			<ul>
+				<label for="">密码：</label>
+				<input class="password" type="text" value="请输入内容"/>
+			</ul>
+				<input class="submit" type="submit" value="登陆"/>
+		</div>
+	</body>
+</html>
